@@ -1,13 +1,13 @@
 {% set name = "aiolimiter" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiolimiter-{{ version }}.tar.gz
-  sha256: 461cf02f82a29347340d031626c92853645c099cb5ff85577b831a7bd21132b5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiolimiter-{{ version }}.tar.gz
+  sha256: 761455d26df0d7a393f78bd39b022579e02ca5a65beb303a67bed2ded2f740ac
 
 build:
   noarch: python
